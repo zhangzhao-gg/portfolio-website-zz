@@ -184,7 +184,7 @@ export default class MonitorScreen extends EventEmitter {
 
         // Set iframe attributes
         // PROD: 替换为你的博客 URL
-        iframe.src = 'https://zhangzhao.dev/';
+        iframe.src = 'https://me.okethan.top/';
         const urlParams = new URLSearchParams(window.location.search);
         if (urlParams.has('dev')) {
             iframe.src = 'http://localhost:3000/';
