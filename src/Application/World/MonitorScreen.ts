@@ -183,15 +183,8 @@ export default class MonitorScreen extends EventEmitter {
         };
 
         // Set iframe attributes
-        // PROD
-        iframe.src = 'https://os.henryheffernan.com/';
-        /**
-         * Use dev server is query params are present
-         *
-         * Warning: This will not work unless the dev server is running on localhost:3000
-         * Also running the dev server causes browsers to freak out over unsecure connections
-         * in the iframe, so it will flag a ton of issues.
-         */
+        // PROD: 替换为你的博客 URL
+        iframe.src = 'https://zhangzhao.dev/';
         const urlParams = new URLSearchParams(window.location.search);
         if (urlParams.has('dev')) {
             iframe.src = 'http://localhost:3000/';

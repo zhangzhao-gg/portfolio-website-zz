@@ -6,8 +6,8 @@ interface InfoOverlayProps {
     visible: boolean;
 }
 
-const NAME_TEXT = 'Henry Heffernan';
-const TITLE_TEXT = 'Software Engineer';
+const NAME_TEXT = 'Builder';
+const TITLE_TEXT = '无线电报派对发起人';
 const MULTIPLIER = 1;
 
 const InfoOverlay: React.FC<InfoOverlayProps> = ({ visible }) => {
