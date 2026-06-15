@@ -149,26 +149,30 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                         <div style={styles.logoContainer}>
                             <div>
                                 <p style={styles.green}>
-                                    <b>Heffernan,</b>{' '}
+                                    <b>Zhang,</b>{' '}
                                 </p>
                                 <p style={styles.green}>
-                                    <b>Henry Inc.</b>
+                                    <b>Zhao Inc.</b>
                                 </p>
                             </div>
                         </div>
                         <div style={styles.headerInfo}>
-                            <p>Released: 01/13/2000</p>
-                            <p>HHBIOS (C)2000 Heffernan Henry Inc.,</p>
+                            <p>Released: 06/15/2026</p>
+                            <p>ZZBIOS (C)2026 Zhang Zhao Inc.,</p>
                         </div>
                     </div>
                     <div style={styles.body} className="loading-screen-body">
-                        <p>HSP S13 2000-2022 Special UC131S</p>
+                        <p>ZZBIOS V2026 — Builder Edition</p>
                         <div style={styles.spacer} />
                         {showBiosInfo && (
                             <>
-                                <p>HSP Showcase(tm) XX 113</p>
+                                <p>CPU : 1x Human Brain @ 3.00GHz (Overclocked)</p>
                                 <p>Checking RAM : {14000} OK</p>
+                                <p>Checking COFFEE : ████████ FULL</p>
+                                <p>Checking VIBE  : ░░░░░░░░ LATE NIGHT MODE</p>
                                 <div style={styles.spacer} />
+                                <p>PARTY MODULE     ... <b style={styles.green}>无线电报派对</b> DETECTED</p>
+                                <p>BUILDER CORE     ... LOADED</p>
                                 <div style={styles.spacer} />
                                 {showLoadingResources ? (
                                     progress == 1 ? (
@@ -193,11 +197,11 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                         <div style={styles.spacer} />
                         {showLoadingResources && doneLoading && (
                             <p>
-                                All Content Loaded, launching{' '}
+                                All systems go, launching{' '}
                                 <b style={styles.green}>
-                                    'Henry Heffernan Portfolio Showcase'
+                                    'Zhang Zhao — Builder'
                                 </b>{' '}
-                                V1.0
+                                V2026
                             </p>
                         )}
                         <div style={styles.spacer} />
@@ -227,7 +231,7 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                     <p>But do enjoy what I have done so far :)</p>
                     <div style={styles.spacer} />
                     <div style={styles.spacer} /> */}
-                    <p>Henry Heffernan Portfolio Showcase 2022</p>
+                    <p>Zhang Zhao — Builder · 无线电报派对发起人</p>
                     {mobileWarning && (
                         <>
                             <br />
